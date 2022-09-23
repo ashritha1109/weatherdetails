@@ -89,6 +89,7 @@ for(let country of data)
                         <p class="bottom">&#x1F31E Sunrise: ${data.sys.sunrise}</p>
                         <p class="bottom">&#x1F31E Sunset: ${data.sys.sunset}</p>
                         <p class="bottom">&#127756 Wind speed${data.wind.speed}</p>
+                         <p class="bottom"›&#127760 Latitude: ${data.coord.lat}</p> <p class="bottom"›&#127760 Longitude: ${data.coord.lon}</p>
                   </div>
                 </div>
               </div>
